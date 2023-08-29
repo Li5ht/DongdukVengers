@@ -13,7 +13,7 @@
     <div id="rectangle35">
         <div id="gameimg"></div>
         <div id="explain">중세/RPG/etc</div>
-        <div id="morebox" onClick="location.href='form.jsp'">
+        <div id="morebox" onClick="location.href='form'">
             <div id="moretext">취향 저격 게임 더 알아보기</div>
         </div>
     </div>

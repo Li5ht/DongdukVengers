@@ -1,251 +1,27 @@
-<!doctype html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>오버워치 mbti</title>
-    <meta name="description" content="나랑 꼭 닮은 오버워치 영웅을 mbti를 통해">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="오버워치 mbti">
-    <meta property="og:description" content="나랑 꼭 닮은 오버워치 영웅을 mbti를 통해">
-    <meta property="og:image" content="https://s.pstatic.net/dbscthumb.phinf/5116_000_1/20171130231249682_M7IW5513T.png/overwatch_logo_3.png?type=m1500_q100">
-    <meta property="og:url" content="https://khw970421-mbti.netlify.app/">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="container">
-<article class="start">
-    <div class="mt-5 text-center orangeText topic" >나랑 꼭 닮은 오버워치 영웅은?</div><br>
-    <a href="https://khw970421-mbti.netlify.app/" class="text-center" id="beforeUrl">개발자의 모든 영웅 오버워치 mbti 하러가기 (32명의 영웅)</a>
-    <button type="button" class="btn btn-primary mt-5" onclick="start()">테스트 시작하기</button>
-</article>
-<article class="question">
-    <div class="progress mt-5">
-        <div class="progress-bar" role="progressbar"></div>
-    </div>
-    <img  class='mt-5 slash' src="img/up-slash.png" alt="">
-    <div id='title' class="text-center mt-5 orangeText properSize">문제</div>
-    <img  class='mt-5 slash' src="img/down-slash.png" alt="">
-    <input id="type" type="hidden" value="EI">
-    <button id="A" type="button" class="btn btn-primary mt-5">Primary</button>
-    <button id="B" type="button" class="btn btn-primary mt-5">Primary</button>
-</article>
-<article class="result">
-    <div class="mt-5 text-center whiteText topic" >나랑 꼭 닮은 오버워치 영웅은?</div>
-    <img  class='mt-5 slash' src="img/up-slash.png" alt="">
-    <img id='img' class='rounded-circle mt-5' src="lion.jpg" alt="">
-    <img  class='mt-5 slash' src="img/down-slash.png" alt="">
-    <div class='text-center mt-5 fw-border whiteText topic' id="HERO">영웅 이름</div>
-    <div class='text-center mt-5 orangeText properSize' id="explain">설명</div>
-    <div class="rectangle mt-4 mb-4"></div>
-    <div id="name" class="mt-5 text-center whiteText topic" >해당 영웅의 대사들</div>
-    <div class='text-center mt-5 whiteText' id="line"></div>
-
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <div class="text-center mt-5 addthis_inline_share_toolbox_1n4s"></div>
-</article>
-<article class="mt-5 kakao_ad">
-    <ins class="kakao_ad_area" style="display:none;"
-         data-ad-unit    = "DAN-GYUfyjXbpWGHpuZm"
-         data-ad-width   = "320"
-         data-ad-height  = "100"></ins>
-    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
-</article>
-
-<a class ="mt-5 banner" href="https://www.codelion.net/catalog/Q291cnNlTm9kZTpqbW9r?utm_source=animal_test&utm_medium=web_lecture&utm_campaign=ha-un">
-    <img class="banner-img" src="banner.png" alt="banner">
-</a>
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
-<input type="hidden" id="EI" value="0">
-<input type="hidden" id="SN" value="0">
-<input type="hidden" id="TF" value="0">
-<input type="hidden" id="JP" value="0">
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-<script>
-        var num = 1;
-
-        let questionTitle = [
-          '게임을 시작하기 전',
-          '코로나로 집안에만 있을 때',
-          '올해의 목표를 세우려 한다. 어떤목표를 세울까?',
-          '아군 딜러들이 궁이 거의 찬 와중에 자신이 힐러인데 5금을 먹을 때 ',
-          '오늘의 목표를 세우려 한다. 어떻게 세울까?',
-          '이번주까지 할 일이 너무 많은데 어떻게 끝내야할까?',
-          '적팀 겐지가 6인궁 POTG를 먹을 때',
-          '의도치 않게 상대방에게 상처를 줬을 때 나의 행동은?',
-          '현재 자신이 마스터 티어 일때 친구가 다이아에서 플레로 갔다면 먼저 할일은?',
-          '현재 한타가 진 와중에 자신에게 있는 디바궁이 있을때 할 행동은?',
-          '열심히 공부하여 시험을 보았는데 예상보다 낮은 점수가 나올 때',
-          '회사에 가려는데 눈앞에서 지하철을 놓쳐서 지각할거 같을 때'
-        ]
-
-        let estj =[
-          '보이스를 들어가거나 팀원들에게 채팅으로 인사를 건넨다',
-          '집안에만 있는것이 너무 답답하여 친구들을 빨리 만나고 싶고 하다못해 줌이라도 써서 연락하고 싶다.',
-          '새로운 친구를 만나보는 것을 도전하고, 동아리든 알바든 시도해본다.',
-          '힐러가 5금이 말이되냐고 딜러를 당장 바꾸라 말한다.',
-          '이정도면 전부 마무리 지을수 있겠다 싶은  할 수 있는 정도 목표를 잡는다.',
-          '이번주까지 부족하면 조금 더 시간을 가지더라도 끝낼수있게 한다.',
-          '이번 게임이 진 이유가 적팀 겐지가 실력이 좋다고 생각한다.',
-          '사과를 하고 자신의 의도를 설명한다.',
-          '플레이 했던 리플레이를 보며 어떤 부분을 피드백 해야할지 조언해준다.',
-          '다음 한타를 위해 디바의 자폭을 아끼고 팀원들과 연계한다.',
-          '점수가 곧 내가 공부한 것이니 제대로 공부하지 않았다 느낀다.',
-          '다음 지하철을 기다리며 초조해하며 지각하지않길 바라며 그냥 지하철을 탄다.'
-        ]
-
-        let intp = [
-          '게임에 상관없이 보이스를 쓰지 않거나 채팅을 쓰지 않는다.',
-          '이불 밖은 위험해 내 방이 최고야',
-          '미래를 위한 자격증을 공부한다.',
-          '이번 한타에 궁이라도 제대로 써서 이기자고 말한다.',
-          '일단 크게 잡고 할 수 있는 만큼 하자는 느낌으로 크게 잡는다.',
-          '빨리 끝내보고 문제가 생기면 그때가서 처리한다.',
-          '이번게임이 진 이유가 적팀겐지가 실력이 좋다기보단 우리팀이 너무 못해서라 생각한다.',
-          '우선 상대방의 화를 풀어주려 한다.',
-          '자신도 다이아에서 플레도 가봤다며 위로해준다.',
-          '지금 상대팀원들의 스킬이 다 빠졌을 때 궁쓰면 POTG라 생각하고 궁을 쓰고 한타를 역전한다.',
-          '점수가 낮아도 내가 공부했던 내용들은 나중에 쓸모있을거라 생각해 점수만 낮았던거야',
-          '돈은 좀 더 나가겠지만 택시를 타고 지각을 하지않게 대처한다'
-        ]
-
-        var q = {
-          1 : {"title": questionTitle[0], "type": "EI", "A": estj[0], "B":intp[0] },
-          2 : {"title": questionTitle[1], "type": "EI", "A": estj[1], "B":intp[1] },
-          3 : {"title": questionTitle[2], "type": "EI", "A": estj[2], "B":intp[2] },
-          4 : {"title": questionTitle[3], "type": "SN", "A": estj[3], "B":intp[3] },
-          5 : {"title": questionTitle[4], "type": "SN", "A": estj[4], "B":intp[4] },
-          6 : {"title": questionTitle[5], "type": "SN", "A": estj[5], "B":intp[5] },
-          7 : {"title": questionTitle[6], "type": "TF", "A": estj[6], "B":intp[6] },
-          8 : {"title": questionTitle[7], "type": "TF", "A": estj[7], "B":intp[7] },
-          9 : {"title": questionTitle[8], "type": "TF", "A": estj[8], "B":intp[8] },
-          10: {"title":  questionTitle[9], "type": "JP", "A": estj[9], "B":intp[9] },
-          11: {"title":  questionTitle[10], "type": "JP", "A": estj[10], "B":intp[10] },
-          12: {"title":  questionTitle[11], "type": "JP", "A": estj[11], "B":intp[11] },
-
-        }
-
-        let explain = [
-          '내향적이지만 책임감 있고 믿을 수 있으면서 주어진 임무를 철저하게 완수하려 노력하는 규칙을 준수하는 유형',
-          '겉으로는 무덤덤해 보여도 생각이 엄청 많으며 성격이 온화하고 배려심이 깊음',
-          '직관력과 통찰력이 강하고 자기안의 갈등이 많고 복잡하나 신념과 열정이 강함.',
-          '주관적인 감정보다는 논리와 객관적인 정보에 더 중점을 두는 특징이며 자신만의 기준이 있고 호기심이 많으나 감성적이 부족',
-          '독립적이고 내향적이면서 낙관적이고 느긋하여 계획보단 하루하루를 살아가는 스타일',
-          '말이 별로없고 조용한 편이며 내향적이고 마음이 따뜻하고 순해서 정이 많음',
-          '감수성이 풍부하고 이해심이 많아 더나은 상황을 만들어가고자 긍정적으로 노력하는 이상주의자',
-          '조용하고 과묵하며 논리와 분석을 하며 문제를 해결하기 좋아하나 관심이 있는 분야에 대해 말을 잘하며 이해가 빠르고 높은 직관력을 가짐',
-          '외향적이고 논리적이고 책임감이 있으며 사실적이고 현실 감각이 뛰어나 일을 조직, 계획, 추진하는 능력이 뛰어난 지도자의 성격을 가짐',
-          '타인의 다양한 요구에 민감하고 그것들을 현실적인 가치로 변환하여 조화롭게 하고자 하는 것에 큰 관심을 쏟는다.',
-          '정의로운 사회운동가나 언변능숙형으로 마음이 따뜻하고 책임감이 강하며 사교성이 풍부하며 동정심이 많다',
-          '리더쉽, 완벽주의, 계획형으로 일에 대한 장기적인 안목이 있으나 상대방의 감정에 다소 무감각',
-          '모험가 성향으로 리더쉽이 강하며 문제해결능력 또한 탁월하고 계획보다는 체험,경험을 중시하는 행동파',
-          '외향적이며 감각적, 감성적. 사고적이고 활동적이며 즐거움을 추구하는것을 즐김',
-          '재기 발랄한 활동가로 따뜻하고 열정적이며 때로는 분위기 메이커 역할을 하여 어느 모임, 그룹에서도 어렵지 않게 만날 수 있는 타입',
-          '외향적이고 직관적이며, 사고적 탐구적인 성격으로 모험심이 강해서 위험을 감수해서라도 새로운 시도를 마다하지 않으나 일상적이고 세부적인 일에는 태만하기 쉬운 성격']
-
-        let img = [
-          './img/hero/para.png',
-          './img/hero/orisa.png',
-          './img/hero/mei.png',
-          './img/hero/simetra.png',
-          './img/hero/reaper.png',
-          './img/hero/genzi.png',
-          './img/hero/zenyata.png',
-          './img/hero/winston.png',
-          './img/hero/torvion.png',
-          './img/hero/zarya.png',
-          './img/hero/mercy.png',
-          './img/hero/soldier.png',
-          './img/hero/rein.png',
-          './img/hero/diva.png',
-          './img/hero/tracer.png',
-          './img/hero/junkret.png'
-        ]
-        let result = {
-          "ISTJ": {"HERO": "파라", "explain": explain[0], "img": img[0],"line" : ["무고한 이들을 지키겠습니다.","시스템 이상무, 전투기동 대기중"]},
-          "ISFJ": {"HERO": "오리사", "explain": explain[1], "img": img[1],"line" : ["추후 분석을 위해 기록을 저장합니다.","지켜드릴테니 제 곁을 떠나지 마십시오"]},
-          "INFJ": {"HERO": "메이", "explain": explain[2], "img": img[2],"line" : ["제 몸 하나는 지킬 수 있다고요","개인적인 감정은 없어요","빨리 시작하고 싶어요"]},
-          "INTJ": {"HERO": "시메트라", "explain": explain[3], "img": img[3],"line" : ["모두가 자기역할을 다하면 승리할 수 밖에 없죠","계획대로만 하면 승리는 우리거에요", "적 포탑을 파괴했어요  훗, 구조가 열악하더군요."]},
-          "ISTP": {"HERO": "리퍼", "explain": explain[4], "img": img[4],"line" : ["혼자서라도 다 쓸어주지","타 죽기 싫으면 내 앞에서 썩 꺼져 ","죽음이 너의 곁을 걷는다."]},
-          "ISFP": {"HERO": "겐지", "explain": explain[5], "img": img[5],"line" : ["마음을 비우고 눈앞의 임무에 집중해","망자에게 애도를","하나되어 수비하라 승리가 코앞이다."]},
-          "INFP": {"HERO": "젠야타", "explain": explain[6], "img": img[6],"line" : ["여기서 채비를 갖추어야하오","낙담하지 마시오, 처음에는 누구나 무지한 법이니","잘했소!"]},
-          "INTP": {"HERO": "윈스턴", "explain": explain[7], "img": img[7],"line" : ["제 계산에 따르면 저희의 생존 가능성을 32.33%입니다. 아 물론 순환소수죠 ","이게 바로 응용과학이죠","흥, 증명완료"]},
-          "ESTJ": {"HERO": "토르비욘", "explain": explain[8], "img": img[8],"line" : ["할일이 천지인데 이렇게 노닥거리다니","헤헤헤 참 잘했어요. 도장찍어줄까?","다들 뭐하는거야? 화물이 움직이는걸 보고만 있으라고?"]},
-          "ESFJ": {"HERO": "자리야", "explain": explain[9], "img": img[9],"line" : ["새해목표요? 온세상의 평화입니다","해내실 줄 알았습니다","저격수다. 조심하십시오"]},
-          "ENFJ": {"HERO": "메르시", "explain": explain[10], "img": img[10],"line" : ["뭐 치료는 해드릴게요. 늘 그랫듯이","잠시만 차분하게 평화를 즐겨볼까여? 물론 그리 길진않겠지만","항상 폭력만이 해법이 되어야할까요?"]},
-          "ENTJ": {"HERO": "솔져", "explain": explain[11], "img": img[11],"line" : ["뺀질거리지 말고 이동할 준비해","널 지휘하게 되어 영광이다.","전술적인 선택이었다."]},
-          "ESTP": {"HERO": "라인하르트", "explain": explain[12], "img": img[12],"line" : ["남자가 망치를 들었으면 뭐든 후려쳐야지","영광스러운 전장에서 우리의 용기를 증명하게나","날 막을 순 없다."]},
-          "ESFP": {"HERO": "디바", "explain": explain[13], "img": img[13],"line" : ["좋았어 이제부터 진지모드","이런게 팀워크지","신기록 한번 세워볼까?"]},
-          "ENFP": {"HERO": "트레이서", "explain": explain[14], "img": img[14],"line" : ["안녕 친구들 해결사가 왔어","잽싸게 해치워버리자","같이 가"]},
-          "ENTP": {"HERO": "정크랫", "explain": explain[15], "img": img[15],"line" : ["내꺼 내꺼 내꺼 이 거점은 내꺼야","저 밖에 폭파시킬게 얼마나 많은데 여기서 계속 기다리라고?","나의 모든 노력이 하얗게 불타고있어"]}
-        }
-
-        const shuffleArray = array => {
-          for (let i = 1; i <= Object.keys(array).length;i++) {
-            let j = Math.floor(Math.random() * i+1);
-            [array[i], array[j]] = [array[j], array[i]];
-          }
-        };
-
-        function start(){
-            $('.start').hide();
-            $('.question').show();
-            shuffleArray(q);
-            next();
-        }
-        $('#A').click(function(){
-          var type = $('#type').val();
-          var preValue = $('#'+type).val();
-          $('#'+type).val(parseInt(preValue)+1);
-          next();
-        });
-        $('#B').click(function(){
-          next();
-        });
-
-        function next(){
-          if(num == 13){
-            $('.question').hide();
-            $('.result').show();
-            var mbti = "";
-            ($("#EI").val() >= 2) ? mbti += "E" : mbti += "I";
-            ($("#SN").val() >= 2) ? mbti += "S" : mbti += "N";
-            ($("#TF").val() >= 2) ? mbti += "T" : mbti += "F";
-            ($("#JP").val() >= 2) ? mbti += "J" : mbti += "P";
-            $('#img').attr('src',result[mbti]["img"]);
-            $('#HERO').html(result[mbti]["HERO"]);
-            $('#explain').html(result[mbti]["explain"]);
-            $('#name').html(result[mbti]["HERO"]+'의 대사');
-            for(let i=0;i<result[mbti]["line"].length;i++)
-            {
-              document.getElementById('line').insertAdjacentHTML('afterend',`<h3 class="text-center mt-1 whiteText properSize">${result[mbti]["line"][i]}</h3>`);
-            }
-          }
-          else {
-            $('.progress-bar').attr('style', 'width: calc(100/12*' + num + '%)');
-            $('#title').html(q[num]["title"]);
-            $('#type').val(q[num]["type"]);
-
-            $('#A').html(q[num]["A"]);
-            $('#B').html(q[num]["B"]);
-
-            num++;
-            $('#A').click(function(){
-              return false;
-            });
-            $('#B').click(function(){
-              return false;
-            });
-          }
-        }
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI 테스트</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        
     </script>
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-603edaeaa1b08493"></script>
-
-
+</head>
+<body>
+<div class="container mt-5">
+    <div id="question-container" class="text-center">
+        <h1 id="question" class="mb-4">질문이 여기에 표시됩니다.</h1>
+        <button id="answer-yes" class="btn btn-primary mr-3">그렇다</button>
+        <button id="answer-no" class="btn btn-secondary">아니다</button>
+    </div>
+    <div id="result-container" class="text-center d-none">
+        <h2 id="result">당신의 MBTI 유형: <span id="mbti-type"></span></h2>
+        <p id="job-recommendation">: <span id="recommended-job"></span></p>
+        <button id="restart-button" class="btn btn-primary">다시 검사하기</button>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>

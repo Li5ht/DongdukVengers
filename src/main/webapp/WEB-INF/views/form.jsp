@@ -38,12 +38,11 @@
                 <form action="" method="post">
                     <label>게임 빈도</label><br>
                     <select name="box" id="frequencybox">
-                        <option>----- 선택하세요 -----</option>
-                        <option value="1">1시간 이하</option>
-                        <option value="2">1시간 ~ 2시간</option>
-                        <option value="3">2시간 ~ 4시간</option>
-                        <option value="4">4시간 ~ 6시간</option>
-                        <option value="5">6시간 이상</option>
+                        <option>가까운 것을 선택하세요</option>
+                        <option value="1">한달에 한번</option>
+                        <option value="2">주에 한번</option>
+                        <option value="3">일주일에 세번 이상</option>
+                        <option value="4">거의 매일</option>
                     </select>
                 </form>
             </div>

@@ -1,0 +1,423 @@
+#AndroidLarge {
+    position: relative;
+    width: 360px;
+    height: 800px;
+
+    background: #1C166E;
+}
+
+
+#Rectangle35
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 302px;
+    height: 622px;
+    left: 28px;
+    top: 60px;
+
+    background: rgba(0, 0, 0, 0.65);
+    border: 1px solid #000000;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+#age
+{
+    position: absolute;
+    width: 99px;
+    height: 32px;
+    left: 16px;
+    top: 50px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+#favorite {
+    position: absolute;
+    width: 109px;
+    height: 48px;
+    left: 16px;
+    top: 190px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+#playtime
+{
+    position: absolute;
+    width: 109px;
+    height: 48px;
+    left: 16px;
+    top: 280px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#frequency
+{
+    position: absolute;
+    width: 109px;
+    height: 48px;
+    left: 16px;
+    top: 370px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+#notice
+{
+    position: absolute;
+    width: 351px;
+    height: 83px;
+    left: -4px;
+    top: 714px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+#Rectangle37
+{
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    left: 130px;
+    top: 120px;
+
+    background: #D9D9D9;
+}
+
+
+#Rectangle38
+{
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    left: 151px;
+    top: 226px;
+
+    background: #D9D9D9;
+}
+
+
+
+#Rectangle40
+{
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    left: 151px;
+    top: 284px;
+
+    background: #D9D9D9;
+}
+
+
+
+#Rectangle41
+{
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    left: 151px;
+    top: 362px;
+
+    background: #D9D9D9;
+}
+
+
+
+#Rectangle42
+{
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    left: 151px;
+    top: 441px;
+
+    background: #D9D9D9;
+}
+
+
+
+
+#sex
+{
+    position: absolute;
+    width: 99px;
+    height: 32px;
+    left: 16px;
+    top: 120px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+#female
+{
+    position: absolute;
+    width: 99px;
+    height: 32px;
+    left: 145px;
+    top: 160px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+
+
+
+#male
+{
+    position: absolute;
+    width: 99px;
+    height: 32px;
+    left: 231px;
+    top: 163px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+
+
+
+#검색자동완성
+{
+    position: absolute;
+    width: 96px;
+    height: 15px;
+    left: 165px;
+    top: 291px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+#드롭다운
+{
+    position: absolute;
+    width: 96px;
+    height: 15px;
+    left: 172px;
+    top: 449px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+
+
+#Ellipse1
+{
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    left: 145px;
+    top: 168px;
+
+    background: #D9D9D9;
+}
+
+
+
+
+#Ellipse2
+{
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    left: 226px;
+    top: 168px;
+
+    background: #D9D9D9;
+}
+
+
+
+
+#morebox
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 252px;
+    height: 107px;
+    left: 30px;
+    top: 470px;
+
+    background: #E62F9B;
+    border: 1px solid #000000;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+#moretext {
+
+    position: absolute;
+    width: 200px;
+    height: 84px;
+    top: 20px;
+    left: 27px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+
+
+#explain
+{
+    position: absolute;
+    width: 265px;
+    height: 84px;
+    left: 46px;
+    top: 543px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+
+
+
+#Group5
+{
+    position: absolute;
+    width: 181px;
+    height: 57px;
+    left: 36px;
+    top: 3px;
+
+}
+
+
+
+
+#dvengers
+{
+    position: absolute;
+    width: 136px;
+    height: 13px;
+    left: 81px;
+    top: 32px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.3em;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+#logo
+{
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 36px;
+    top: 3px;
+
+    /*background: url(clouds-256.png);*/
+}
+

@@ -23,6 +23,13 @@ public class MbtiController {
     }
 
     private String calculateMbtiType(String[] answers) {
+        // Implement your MBTI type calculation logic here based on user's answers
+        // This is a simplified example; you can use a more sophisticated algorithm
+        // to map answers to MBTI types.
+        // E.g., Counting E's and I's, N's and S's, etc.
+        // Return the calculated MBTI type as a string.
+        return "result";
+      
         int[] scores = new int[4];
 
         // Loop through answers and calculate scores

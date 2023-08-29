@@ -1,0 +1,440 @@
+ #AndroidLarge {
+    position: relative;
+    width: 360px;
+    height: 800px;
+
+    background: #1C166E;
+ }
+
+
+#Rectangle35
+ {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 302px;
+    height: 622px;
+    left: 28px;
+    top: 60px;
+
+    background: rgba(0, 0, 0, 0.65);
+    border: 1px solid #000000;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+ }
+
+ #나이
+ {
+     position: absolute;
+     width: 99px;
+     height: 32px;
+     left: 36px;
+     top: 101px;
+
+     font-family: 'NeoDunggeunmo Pro';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 25px;
+     line-height: 25px;
+     text-align: center;
+
+     color: #FFFFFF;
+
+     border: 1px solid #000000;
+ }
+
+
+#즐겨하는게임
+{
+    position: absolute;
+    width: 109px;
+    height: 48px;
+    left: 36px;
+    top: 280px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+
+#게임지속시간
+{
+    position: absolute;
+    width: 109px;
+    height: 48px;
+    left: 36px;
+    top: 352px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+#게임빈도
+{
+    position: absolute;
+    width: 109px;
+    height: 48px;
+    left: 36px;
+    top: 446px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+
+#정보수집은게임추천목적외에사용되지않습니다.
+{
+    position: absolute;
+    width: 351px;
+    height: 83px;
+    left: -4px;
+    top: 714px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+
+#Rectangle37
+{
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    left: 145px;
+    top: 104px;
+
+    background: #D9D9D9;
+}
+
+
+#직업
+{
+    position: absolute;
+    width: 99px;
+    height: 32px;
+    left: 36px;
+    top: 225px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+
+#Rectangle38
+{
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    left: 151px;
+    top: 226px;
+
+    background: #D9D9D9;
+}
+
+
+
+#Rectangle40
+{
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    left: 151px;
+    top: 284px;
+
+    background: #D9D9D9;
+}
+
+
+
+#Rectangle41
+{
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    left: 151px;
+    top: 362px;
+
+    background: #D9D9D9;
+}
+
+
+
+#Rectangle42
+{
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    left: 151px;
+    top: 441px;
+
+    background: #D9D9D9;
+}
+
+
+
+
+#성별
+{
+    position: absolute;
+    width: 99px;
+    height: 32px;
+    left: 36px;
+    top: 163px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+
+
+#여
+{
+    position: absolute;
+    width: 99px;
+    height: 32px;
+    left: 145px;
+    top: 160px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+
+
+
+#남
+{
+    position: absolute;
+    width: 99px;
+    height: 32px;
+    left: 231px;
+    top: 163px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+
+
+
+#검색자동완성
+{
+    position: absolute;
+    width: 96px;
+    height: 15px;
+    left: 165px;
+    top: 291px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+#드롭다운
+{
+    position: absolute;
+    width: 96px;
+    height: 15px;
+    left: 172px;
+    top: 449px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+
+
+#Ellipse1
+{
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    left: 145px;
+    top: 168px;
+
+    background: #D9D9D9;
+}
+
+
+
+
+#Ellipse2
+{
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    left: 226px;
+    top: 168px;
+
+    background: #D9D9D9;
+}
+
+
+
+
+#Rectangle37
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 252px;
+    height: 107px;
+    left: 53px;
+    top: 525px;
+
+    background: #E62F9B;
+    border: 1px solid #000000;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+
+
+#나와어울리는게임은
+{
+    position: absolute;
+    width: 265px;
+    height: 84px;
+    left: 46px;
+    top: 543px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+
+
+
+#Group5
+{
+    position: absolute;
+    width: 181px;
+    height: 57px;
+    left: 36px;
+    top: 3px;
+
+}
+
+
+
+
+#DVENGERS
+{
+    position: absolute;
+    width: 136px;
+    height: 13px;
+    left: 81px;
+    top: 32px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.3em;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+#clouds25611
+{
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 36px;
+    top: 3px;
+
+    /*background: url(clouds-256.png);*/
+}
+
+

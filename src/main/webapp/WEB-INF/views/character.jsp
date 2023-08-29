@@ -12,6 +12,7 @@
     <button type="button" onclick="fetchCharacterInfo()">Get Character Info</button>
 </form>
 
+
 <div id="characterInfo" style="display: none;">
     <h2>당신과 어울리는 영웅은...</h2>
     <p><strong></strong> <span id="characterName"></span></p>

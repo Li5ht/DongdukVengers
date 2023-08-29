@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOC TYPE html>
+
 <html>
 <head>
     <title>MBTI Character Info</title>
@@ -11,10 +13,11 @@
 </form>
 
 <div id="characterInfo" style="display: none;">
-    <h2>Character Information</h2>
-    <p><strong>Character:</strong> <span id="characterName"></span></p>
-    <p><strong>Introduction:</strong> <span id="characterIntroduction"></span></p>
-    <p><strong>Description:</strong> <span id="characterDescription"></span></p>
+    <h2>당신과 어울리는 영웅은...</h2>
+    <p><strong></strong> <span id="characterName"></span></p>
+    <p><strong>[<span id="characterIntroduction"></span>]</strong></p>
+    <p><strong>당신은 </strong> <span id="characterDescription"></span></p>
+    <h2>그러므로 어울리는 게임은...</h2>
 </div>
 
 <script>

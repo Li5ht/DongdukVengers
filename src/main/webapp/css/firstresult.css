@@ -1,0 +1,131 @@
+
+
+
+ #AndroidLarge{
+     position: relative;
+     width: 360px;
+     height: 800px;
+
+     background: #1C166E;
+ }
+
+ #rectangle35
+ {
+     position: absolute;
+     width: 284px;
+     height: 456px;
+     left: 46px;
+     top: 63px;
+
+     box-sizing: border-box;
+
+     background: linear-gradient(180.26deg, rgba(0, 0, 0, 0.65) 0.23%, rgba(153, 153, 153, 0.1885) 139.73%);
+     border: 1px solid #000000;
+     box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 30px;
+ }
+
+#gameimg
+ {
+     position: absolute;
+     width: 200px;
+     height: 113px;
+     left: 61px;
+     top: 93px;
+     background: url( "../image/header.jpg" );
+ }
+
+
+ #explain {
+    position: absolute;
+    width: 170px;
+    height: 57px;
+    left: 60px;
+    top: 236px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+ }
+
+ #morebox
+ {
+     box-sizing: border-box;
+
+     position: absolute;
+     width: 252px;
+     height: 107px;
+     left: 20px;
+     top: 346px;
+
+     background: linear-gradient(180deg, #E62F9B 47.92%, rgba(255, 255, 255, 0) 100%);
+     border: 1px solid #000000;
+
+     filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
+
+     border-radius: 30px;
+
+ }
+
+ #moretext {
+
+     position: absolute;
+     width: 265px;
+     height: 84px;
+
+     font-family: 'NeoDunggeunmo Pro';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 30px;
+     text-align: center;
+
+     color: #FFFFFF;
+
+ }
+
+ #Group4
+ {
+     position: absolute;
+     width: 181px;
+     height: 57px;
+     left: 46px;
+     top: 6px;
+ }
+
+
+ #dvengers{
+     position: absolute;
+     width: 136px;
+     height: 13px;
+     left: 91px;
+     top: 35px;
+
+     font-family: 'NeoDunggeunmo Pro';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 23px;
+     line-height: 15px;
+     text-align: center;
+     letter-spacing: 0.3em;
+
+     color: #FFFFFF;
+ }
+
+
+
+ #logo
+ {
+     position: absolute;
+     width: 57px;
+     height: 57px;
+     left: 46px;
+     top: 6px;
+
+     background: url("../image/clouds-256.png");
+
+ }

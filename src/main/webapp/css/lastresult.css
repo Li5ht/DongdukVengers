@@ -1,0 +1,159 @@
+#AndroidLarge4
+{
+    position: relative;
+    width: 360px;
+    height: 800px;
+
+    background: #1C166E;
+}
+
+
+
+#Rectangle35
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 290px;
+    height: 716px;
+    left: 40px;
+    top: 59px;
+
+    background: rgba(0, 0, 0, 0.65);
+    border: 1px solid #000000;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+
+
+
+#header1
+{
+    position: absolute;
+    width: 242px;
+    height: 113px;
+    left: 65px;
+    top: 142px;
+
+    /*background: url(header.jpg);*/
+}
+
+
+
+
+#text1
+{
+    position: absolute;
+    width: 170px;
+    height: 57px;
+    left: 88px;
+    top: 281px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+
+
+
+#text2
+{
+    position: absolute;
+    width: 196px;
+    height: 34px;
+    left: 82px;
+    top: 526px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+
+
+
+#이미지클릭시구매페이지로이동
+{
+    position: absolute;
+    width: 242px;
+    height: 63px;
+    left: 59px;
+    top: 79px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+
+
+#Group6
+{
+    position: absolute;
+    width: 181px;
+    height: 57px;
+    left: 40px;
+    top: 2px;
+}
+
+
+
+
+
+#DVENGERS
+{
+    position: absolute;
+    width: 136px;
+    height: 13px;
+    left: 85px;
+    top: 31px;
+
+    font-family: 'NeoDunggeunmo Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.3em;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+#clouds25611
+{
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 40px;
+    top: 2px;
+
+    /*background: url(clouds-256.png);*/
+}
+
+

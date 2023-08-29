@@ -30,53 +30,53 @@ public class MbtiController {
         // Return the calculated MBTI type as a string.
 //        return "result";
       
-        int[] scores = new int[4];
-
-        // Loop through answers and calculate scores
-        for (String answer : answers) {
-            char[] answerChars = answer.toCharArray();
-            for (int i = 0; i < answerChars.length; i++) {
-                // For simplicity, assume 'a' and 'b' indicate opposing preferences
-                // and calculate scores for each preference dimension
-                if (answerChars[i] == 'a') {
-                    scores[i]++;
-                } else if (answerChars[i] == 'b') {
-                    scores[i]--;
-                }
-            }
-        }
-
-        // Determine the MBTI type based on scores
-        StringBuilder mbtiTypeBuilder = new StringBuilder();
-        for (int score : scores) {
-            if (score >= 0) {
-                mbtiTypeBuilder.append("I");
-            } else {
-                mbtiTypeBuilder.append("E");
-            }
-        }
-        for (int score : scores) {
-            if (score >= 0) {
-                mbtiTypeBuilder.append("N");
-            } else {
-                mbtiTypeBuilder.append("S");
-            }
-        }
-        for (int score : scores) {
-            if (score >= 0) {
-                mbtiTypeBuilder.append("F");
-            } else {
-                mbtiTypeBuilder.append("T");
-            }
-        }
-        for (int score : scores) {
-            if (score >= 0) {
-                mbtiTypeBuilder.append("P");
-            } else {
-                mbtiTypeBuilder.append("J");
-            }
-        }
-        return mbtiTypeBuilder.toString();
+//        int[] scores = new int[4];
+//
+//        // Loop through answers and calculate scores
+//        for (String answer : answers) {
+//            char[] answerChars = answer.toCharArray();
+//            for (int i = 0; i < answerChars.length; i++) {
+//                // For simplicity, assume 'a' and 'b' indicate opposing preferences
+//                // and calculate scores for each preference dimension
+//                if (answerChars[i] == 'a') {
+//                    scores[i]++;
+//                } else if (answerChars[i] == 'b') {
+//                    scores[i]--;
+//                }
+//            }
+//        }
+//
+//        // Determine the MBTI type based on scores
+//        StringBuilder mbtiTypeBuilder = new StringBuilder();
+//        for (int score : scores) {
+//            if (score >= 0) {
+//                mbtiTypeBuilder.append("I");
+//            } else {
+//                mbtiTypeBuilder.append("E");
+//            }
+//        }
+//        for (int score : scores) {
+//            if (score >= 0) {
+//                mbtiTypeBuilder.append("N");
+//            } else {
+//                mbtiTypeBuilder.append("S");
+//            }
+//        }
+//        for (int score : scores) {
+//            if (score >= 0) {
+//                mbtiTypeBuilder.append("F");
+//            } else {
+//                mbtiTypeBuilder.append("T");
+//            }
+//        }
+//        for (int score : scores) {
+//            if (score >= 0) {
+//                mbtiTypeBuilder.append("P");
+//            } else {
+//                mbtiTypeBuilder.append("J");
+//            }
+//        }
+//        return mbtiTypeBuilder.toString();
     }
 
 

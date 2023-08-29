@@ -1,3 +1,4 @@
+
 #AndroidLarge {
     position: relative;
     width: 360px;
@@ -6,9 +7,8 @@
     background: #1C166E;
 }
 
-
 #Rectangle35
-{
+ {
     box-sizing: border-box;
 
     position: absolute;
@@ -48,6 +48,36 @@
     height: 48px;
     left: 16px;
     top: 190px;
+ }
+
+ #age
+ {
+     position: absolute;
+     width: 99px;
+     height: 32px;
+     left: 36px;
+     top: 101px;
+
+     font-family: 'NeoDunggeunmo Pro';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 25px;
+     line-height: 25px;
+     text-align: center;
+
+     color: #FFFFFF;
+
+     border: 1px solid #000000;
+ }
+
+
+#favorite
+{
+    position: absolute;
+    width: 109px;
+    height: 48px;
+    left: 36px;
+    top: 280px;
 
     font-family: 'NeoDunggeunmo Pro';
     font-style: normal;
@@ -65,8 +95,8 @@
     position: absolute;
     width: 109px;
     height: 48px;
-    left: 16px;
-    top: 280px;
+    left: 36px;
+    top: 352px;
 
     font-family: 'NeoDunggeunmo Pro';
     font-style: normal;
@@ -181,33 +211,13 @@
 
 
 
-#sex
-{
+#sex {
     position: absolute;
     width: 99px;
     height: 32px;
     left: 16px;
     top: 120px;
 
-    font-family: 'NeoDunggeunmo Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 25px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-
-
-#female
-{
-    position: absolute;
-    width: 99px;
-    height: 32px;
-    left: 145px;
-    top: 160px;
 
     font-family: 'NeoDunggeunmo Pro';
     font-style: normal;
@@ -217,34 +227,7 @@
     text-align: center;
 
     color: #FFFFFF;
-
-    border: 1px solid #000000;
 }
-
-
-
-
-#male
-{
-    position: absolute;
-    width: 99px;
-    height: 32px;
-    left: 231px;
-    top: 163px;
-
-    font-family: 'NeoDunggeunmo Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 25px;
-    text-align: center;
-
-    color: #FFFFFF;
-
-    border: 1px solid #000000;
-}
-
-
 
 
 #검색자동완성
@@ -314,7 +297,6 @@
 
 
 
-
 #morebox
 {
     box-sizing: border-box;
@@ -324,6 +306,7 @@
     height: 107px;
     left: 30px;
     top: 470px;
+
 
     background: #E62F9B;
     border: 1px solid #000000;
@@ -386,7 +369,6 @@
 
 
 
-
 #dvengers
 {
     position: absolute;
@@ -405,6 +387,7 @@
 
     color: #FFFFFF;
 }
+
 
 
 

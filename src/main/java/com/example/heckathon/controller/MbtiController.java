@@ -28,7 +28,7 @@ public class MbtiController {
         // to map answers to MBTI types.
         // E.g., Counting E's and I's, N's and S's, etc.
         // Return the calculated MBTI type as a string.
-        return "result";
+//        return "result";
       
 //        int[] scores = new int[4];
 //

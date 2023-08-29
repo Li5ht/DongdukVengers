@@ -9,25 +9,15 @@
      background: #1C166E;
  }
 
-
- .Group2
+ #rectangle35
  {
      position: absolute;
      width: 284px;
      height: 456px;
      left: 46px;
      top: 63px;
- }
 
- #rectangle35
- {
      box-sizing: border-box;
-
-     position: absolute;
-     width: 284px;
-     height: 446px;
-     left: 46px;
-     top: 63px;
 
      background: linear-gradient(180.26deg, rgba(0, 0, 0, 0.65) 0.23%, rgba(153, 153, 153, 0.1885) 139.73%);
      border: 1px solid #000000;
@@ -38,12 +28,11 @@
 #gameimg
  {
      position: absolute;
-     width: 242px;
+     width: 200px;
      height: 113px;
      left: 61px;
      top: 93px;
-
-     /*background: url( "../../header.jpg" );*/
+     background: url( "../image/header.jpg" );
  }
 
 
@@ -51,7 +40,7 @@
     position: absolute;
     width: 170px;
     height: 57px;
-    left: 77px;
+    left: 60px;
     top: 236px;
 
     font-family: 'NeoDunggeunmo Pro';
@@ -62,8 +51,6 @@
     text-align: center;
 
     color: #FFFFFF;
-
-    border: 1px solid #000000;
  }
 
  #morebox
@@ -73,7 +60,7 @@
      position: absolute;
      width: 252px;
      height: 107px;
-     left: 61px;
+     left: 20px;
      top: 346px;
 
      background: linear-gradient(180deg, #E62F9B 47.92%, rgba(255, 255, 255, 0) 100%);
@@ -90,19 +77,15 @@
      position: absolute;
      width: 265px;
      height: 84px;
-     left: 55px;
-     top: 363px;
 
      font-family: 'NeoDunggeunmo Pro';
      font-style: normal;
      font-weight: 400;
      font-size: 30px;
-     line-height: 30px;
      text-align: center;
 
      color: #FFFFFF;
 
-     border: 1px solid #000000;
  }
 
  #Group4
@@ -125,7 +108,7 @@
      font-family: 'NeoDunggeunmo Pro';
      font-style: normal;
      font-weight: 400;
-     font-size: 15px;
+     font-size: 23px;
      line-height: 15px;
      text-align: center;
      letter-spacing: 0.3em;
@@ -143,6 +126,6 @@
      left: 46px;
      top: 6px;
 
-     /*background: url(clouds-256.png);*/
+     background: url("../image/clouds-256.png");
 
  }

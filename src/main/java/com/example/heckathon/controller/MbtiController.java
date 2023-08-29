@@ -69,7 +69,6 @@ public class MbtiController {
                 mbtiTypeBuilder.append("J");
             }
         }
-
         return mbtiTypeBuilder.toString();
     }
 

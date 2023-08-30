@@ -77,6 +77,7 @@ public class MbtiController {
 //            }
 //        }
 //        return mbtiTypeBuilder.toString();
+        return "tmp";
     }
 
 
